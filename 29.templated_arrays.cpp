@@ -75,10 +75,11 @@ int main(){
 //////////////////////////////////////////////////
 
     /* array <array<int, 2>, 5> new_arrays;
+    // int new_arrays[5][2]; // Correction
 
-    for (size_t i = 0; i < 2; i++)
+    for (size_t i = 0; i < 5; i++)
     {
-        for (size_t j = 0; j < 5; j++)
+        for (size_t j = 0; j < 2; j++)
         {
             new_arrays[i][j] = i + j + 2;
             cout << new_arrays[i][j] << ' ';
