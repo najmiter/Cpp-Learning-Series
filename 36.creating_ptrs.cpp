@@ -6,7 +6,7 @@ using std::endl;
 int main(){
     // int position = 127;
 
-    // int* bus = nullptr;
+    // int* bus = nullptr; // comment/remove the re-declaration on line 21 when using this one. 
     // bus = &position;
 
     // position = 255;
