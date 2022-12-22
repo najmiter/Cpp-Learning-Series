@@ -8,7 +8,7 @@ int* alloc(int size)
 
 void free(int* array)
 {
-    delete array;
+    delete[] array;
     return;
 }
 
